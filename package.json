@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src --source-maps -d build --ignore public",
+    "build": "babel src/server --source-maps -d build --ignore public",
     "start": "nodemon --exec babel-node -- src/server",
     "lint": "./node_modules/.bin/eslint src",
     "db": "mongod --dbpath data/"
