@@ -29,21 +29,6 @@ export default class DashboardMessages extends React.Component {
               <h4>Label</h4>
               <span className="text-muted">Something else</span>
             </div>
-            <div className={imageStyle}>
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" className="img-responsive" alt="Generic placeholder thumbnail"/>
-              <h4>Label</h4>
-              <span className="text-muted">Something else</span>
-            </div>
-            <div className={imageStyle}>
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" className="img-responsive" alt="Generic placeholder thumbnail"/>
-              <h4>Label</h4>
-              <span className="text-muted">Something else</span>
-            </div>
-            <div className={imageStyle}>
-              <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" className="img-responsive" alt="Generic placeholder thumbnail"/>
-              <h4>Label</h4>
-              <span className="text-muted">Something else</span>
-            </div>
           </div>
         </div>
     );

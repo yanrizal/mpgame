@@ -27521,15 +27521,6 @@
 	              { to: '/dashboard/messages' },
 	              'Messages'
 	            )
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              _reactRouter.Link,
-	              { to: '/' },
-	              'Home'
-	            )
 	          )
 	        )
 	      );
@@ -27911,6 +27902,8 @@
 	
 	var _style2 = _interopRequireDefault(_style);
 	
+	var _reactRouter = __webpack_require__(190);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27953,9 +27946,13 @@
 	              _react2.default.createElement('span', { className: 'icon-bar' })
 	            ),
 	            _react2.default.createElement(
-	              'a',
-	              { className: 'navbar-brand', href: '#' },
-	              'Vida web'
+	              'span',
+	              { className: 'navbar-brand' },
+	              _react2.default.createElement(
+	                _reactRouter.Link,
+	                { to: '/', style: { color: '#FFF' } },
+	                'Vida web'
+	              )
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -29335,36 +29332,6 @@
 	              { className: 'text-muted' },
 	              'Something else'
 	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: imageStyle },
-	            _react2.default.createElement('img', { src: 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', width: '200', height: '200', className: 'img-responsive', alt: 'Generic placeholder thumbnail' }),
-	            _react2.default.createElement(
-	              'h4',
-	              null,
-	              'Label'
-	            ),
-	            _react2.default.createElement(
-	              'span',
-	              { className: 'text-muted' },
-	              'Something else'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: imageStyle },
-	            _react2.default.createElement('img', { src: 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', width: '200', height: '200', className: 'img-responsive', alt: 'Generic placeholder thumbnail' }),
-	            _react2.default.createElement(
-	              'h4',
-	              null,
-	              'Label'
-	            ),
-	            _react2.default.createElement(
-	              'span',
-	              { className: 'text-muted' },
-	              'Something else'
-	            )
 	          )
 	        )
 	      );
@@ -29443,51 +29410,6 @@
 	        _react2.default.createElement(
 	          'div',
 	          { className: "row " + _style2.default.placeholders },
-	          _react2.default.createElement(
-	            'div',
-	            { className: imageStyle },
-	            _react2.default.createElement('img', { src: 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', width: '200', height: '200', className: 'img-responsive', alt: 'Generic placeholder thumbnail' }),
-	            _react2.default.createElement(
-	              'h4',
-	              null,
-	              'Label'
-	            ),
-	            _react2.default.createElement(
-	              'span',
-	              { className: 'text-muted' },
-	              'Something else'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: imageStyle },
-	            _react2.default.createElement('img', { src: 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', width: '200', height: '200', className: 'img-responsive', alt: 'Generic placeholder thumbnail' }),
-	            _react2.default.createElement(
-	              'h4',
-	              null,
-	              'Label'
-	            ),
-	            _react2.default.createElement(
-	              'span',
-	              { className: 'text-muted' },
-	              'Something else'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: imageStyle },
-	            _react2.default.createElement('img', { src: 'data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==', width: '200', height: '200', className: 'img-responsive', alt: 'Generic placeholder thumbnail' }),
-	            _react2.default.createElement(
-	              'h4',
-	              null,
-	              'Label'
-	            ),
-	            _react2.default.createElement(
-	              'span',
-	              { className: 'text-muted' },
-	              'Something else'
-	            )
-	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: imageStyle },

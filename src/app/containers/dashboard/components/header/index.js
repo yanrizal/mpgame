@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react';
-import styles from './style.scss'
+import styles from './style.scss';
+import { Link } from 'react-router';
 
 export default class Header extends React.Component {
 
@@ -18,7 +19,7 @@ export default class Header extends React.Component {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand" href="#">Vida web</a>
+          <span className="navbar-brand"><Link to="/" style={{color:'#FFF'}}>Vida web</Link></span>
         </div>
         <div id="navbar" className="navbar-collapse collapse">
           <ul className="nav navbar-nav navbar-right">

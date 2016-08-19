@@ -15,7 +15,6 @@ export default class Sidebar extends React.Component {
           <li className="active"><Link to="/dashboard">Dashboard <span className="sr-only">(current)</span></Link></li>
           <li><Link to="/dashboard/products">Products</Link></li>
           <li><Link to="/dashboard/messages">Messages</Link></li>
-          <li><Link to="/">Home</Link></li>
         </ul>
       </div>
     );
