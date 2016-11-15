@@ -3,7 +3,7 @@ var webpack = require('webpack');
 var PROD = JSON.parse(process.env.PROD_DEV || '0');
 
 module.exports = {
-  //devtool: 'eval',
+  devtool: 'eval',
   entry: {
     "main" : "./src/app/index.js"
   },
@@ -18,10 +18,17 @@ module.exports = {
   },
   devtool: 'source-map',
   module: {
+    postLoaders: [
+      { loader: "transform?brfs" }
+    ],
     loaders: [
           {
             test: /\.css$/,
             loader: 'style!css-loader' 
+          },
+          {
+            test: /\.json$/,
+            loader: 'json'
           },
           {
             test: /\.scss$/,

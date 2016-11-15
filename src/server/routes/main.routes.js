@@ -10,12 +10,4 @@ router.get('/', (req, res) => {
   res.render('index', { title: 'index'});
 });
 
-router.get('/dashboard', (req, res) => {
-  res.render('index', { title: 'index'});
-});
-
-router.get('/dashboard/products', (req, res) => {
-  res.render('index', { title: 'index'});
-});
-
 export default router;
